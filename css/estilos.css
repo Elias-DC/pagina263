@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box; }
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px; }
+
+.contenedor {
+  width: 90%;
+  max-width: 1000px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: hidden; }
+
+.contenedor header {
+  width: 100%;
+  padding-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center; }
+  .contenedor header .logo1 img {
+    width: 150px; }
+  .contenedor header .logo2 img {
+    width: 150px; }
+  .contenedor header .logo3 img {
+    width: 150px; }
+
+.contenedor .nav {
+  width: 100%;
+  overflow: hidden; }
+  .contenedor .nav .navegacion {
+    background: #2AB27B; }
+    .contenedor .nav .navegacion a {
+      text-decoration: none;
+      display: inline-block;
+      padding: 15px 20px;
+      color: #fff;
+      font-size: 20px; }
+      .contenedor .nav .navegacion a:hover {
+        background: #384248; }
+
+.quienes .contenedor-texto {
+  width: 100%;
+  overflow: hidden; }
+  .quienes .contenedor-texto article h1 {
+    font-family: "Courgette", cursive;
+    font-size: 40px; }
+  .quienes .contenedor-texto article .nombre {
+    text-align: center;
+    padding-bottom: 20px; }
+  .quienes .contenedor-texto article .titulo {
+    font-family: "Courgette", cursive;
+    text-align: center;
+    color: #1BCCAA;
+    font-size: 30px; }
+  .quienes .contenedor-texto article p {
+    text-align: justify;
+    line-height: 27px; }
+
+.ubicacion {
+  width: 100%; }
+  .ubicacion .titulo {
+    font-family: "Courgette", cursive;
+    padding-top: 30px;
+    color: #1BCCAA;
+    text-align: center;
+    font-size: 30px; }
+  .ubicacion p {
+    text-align: center; }
+    .ubicacion p .marcar {
+      font-weight: 700; }
+  .ubicacion .mapa {
+    text-align: center; }
+
+.contacto .titulo {
+  padding-top: 30px;
+  color: #1BCCAA;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Courgette", cursive; }
+.contacto .contenedor .formulario {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  .contacto .contenedor .formulario input[type="text"],
+  .contacto .contenedor .formulario input[type="email"],
+  .contacto .contenedor .formulario textarea {
+    border: 2px solid #01BAEF;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 20px;
+    color: #a4a4a4; }
+    .contacto .contenedor .formulario input[type="text"]:focus,
+    .contacto .contenedor .formulario input[type="email"]:focus,
+    .contacto .contenedor .formulario textarea:focus {
+      border: 2px solid #C42847; }
+  .contacto .contenedor .formulario input[type="text"],
+  .contacto .contenedor .formulario input[type="email"] {
+    width: 49%;
+    margin-bottom: 15px; }
+  .contacto .contenedor .formulario textarea {
+    width: 100%;
+    height: 100px;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100px;
+    max-height: 300px;
+    margin-bottom: 15px; }
+  .contacto .contenedor .formulario .boton {
+    margin: auto;
+    background: #01BAEF;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 15px 30px;
+    cursor: pointer; }
+    .contacto .contenedor .formulario .boton:hover {
+      background: #D7263D; }
+
+footer {
+  width: 100%;
+  padding: 70px;
+  background: #263238;
+  color: #fff; }
+  footer p {
+    text-align: center; }
+
+.galeria {
+  width: 100%; }
+  .galeria h3 {
+    text-align: center; }
+  .galeria p {
+    text-align: center; }
+
+.primero {
+  width: 100%; }
+  .primero h3 {
+    text-align: center; }
+  .primero p {
+    text-align: center; }
+
+.segundo {
+  width: 100%; }
+  .segundo h3 {
+    text-align: center; }
+  .segundo p {
+    text-align: center; }
+
+.tercero {
+  width: 100%; }
+  .tercero h3 {
+    text-align: center; }
+  .tercero p {
+    text-align: center; }
+
+/*# sourceMappingURL=estilos.css.map */
